@@ -1,3 +1,5 @@
+import { separador } from "./modulos";
+
 export {};
 
 // Exemplos de tipos básicos
@@ -11,3 +13,5 @@ console.log(`${nome} tem ${idade} anos.`);
 idade = 31;
 console.log(`${nome} agora tem ${idade} anos.`);
 console.log(`Status: ${ativo ? "Ativo" : "Inativo"}`);
+
+separador();
