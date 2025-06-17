@@ -20,7 +20,7 @@
   },
 
   // Indica quais arquivos/extensões o compilador deve buscar
-  "include": ["*.ts"],
+  "include": ["*.ts", "dist/02-tipagem-basica.ts"],
 
   //Indica o que o compilador deve ignirar
   "exclude": ["node_module", "dist"]
