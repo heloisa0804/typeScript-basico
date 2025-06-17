@@ -24,3 +24,16 @@ qualquerCoisa = 10;
 qualquerCoisa = true;
 
 console.log(`Qualquer coisa: ${qualquerCoisa}`);
+
+separador();
+
+/* Sobre tipagem implícita ou oir inferência */
+
+let exemplo1 = "Isso é uma string"; // TS infere que é string
+let exemplo2 = 10; // TS infere que é number
+
+// neste caso, não tem como TS inferir nada. Portanto, fica como any
+let exemplo3;
+
+// Variável sem valor mas já definida como tipo string
+let exemplo4: string;
