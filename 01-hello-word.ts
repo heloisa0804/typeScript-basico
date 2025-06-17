@@ -1,3 +1,4 @@
-const nome: string = "Heloisa";
+export {};
 
-console.log(`Olá ${nome}! Bem vindo(a) ao TS`);
+const nome: string = "Lindosvaldo";
+console.log(`Olá ${nome}! Bem vindo(a) ao TS!`);
