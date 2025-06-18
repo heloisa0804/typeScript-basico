@@ -8,5 +8,5 @@ console.log(usuario[0]);
 console.log(usuario[1] + "anos");
 console.log(usuario[2] ? "ativo" : "inativo");
 
-usuario[1] = 30;
+usuario[1] = 30; // atualizando um valor da tupla (desde que não seja readonly)
 console.log(usuario[1] + "anos.");
