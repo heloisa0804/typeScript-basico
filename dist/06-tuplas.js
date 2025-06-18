@@ -14,10 +14,10 @@ console.log(produtoA);
 console.log(produtoC);
 (0, modulos_1.separador)();
 function verificarOperacao(sucesso) {
-    if (sucesso) {
-        return [200, "Operação realizada com sucesso"];
-    }
-    return [500, "Erro inesperado no servidor"];
+    return sucesso
+        ? [200, "Operação realizada com sucesso"]
+        : [500, "Erro inesperado no servidor"];
 }
-let resultadoOperacao = verificarOperacao(true);
-console.log(resultadoOperacao);
+const [, mensagem] = verificarOperacao(false);
+console.log(mensagem);
+(0, modulos_1.separador)();

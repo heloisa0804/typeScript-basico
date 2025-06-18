@@ -19,3 +19,6 @@ console.log("Situação:" + situacaoAluno1);
 console.log("Situação:" + situacaoAluno1);
 console.log("Situação:" + situacaoAluno2);
 console.log("Situação:" + situacaoAluno3);
+(0, modulos_1.separador)();
+const diaAtual = "Quarta-feira";
+console.log(diaAtual);
