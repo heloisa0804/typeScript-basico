@@ -58,3 +58,14 @@ const programador: Pessoa & Funcionario = {
 };
 
 console.log(programador);
+
+separador();
+
+type Colaborador = Pessoa & Funcionario;
+const outroProgramador: Colaborador = {
+  nome: "Maycon",
+  idade: 18,
+  salario: 4500,
+};
+
+console.log(outroProgramador);

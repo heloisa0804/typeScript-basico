@@ -29,3 +29,10 @@ const programador = {
     salario: 5000,
 };
 console.log(programador);
+(0, modulos_1.separador)();
+const outroProgramador = {
+    nome: "Maycon",
+    idade: 18,
+    salario: 4500,
+};
+console.log(outroProgramador);
