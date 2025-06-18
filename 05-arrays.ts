@@ -40,3 +40,5 @@ const numeros: number[] = [10, 50, 10];
 const soma = numeros.reduce((acumulador, valor) => acumulador + valor, 0);
 
 console.log(soma);
+
+separador();
