@@ -12,3 +12,12 @@ const produtoA = ["Camiseta", 29.99];
 const produtoC = ["TV", 1000];
 console.log(produtoA);
 console.log(produtoC);
+(0, modulos_1.separador)();
+function verificarOperacao(sucesso) {
+    if (sucesso) {
+        return [200, "Operação realizada com sucesso"];
+    }
+    return [500, "Erro inesperado no servidor"];
+}
+let resultadoOperacao = verificarOperacao(true);
+console.log(resultadoOperacao);
