@@ -1,5 +1,7 @@
 //Exercício
 
+import { separador } from "./modulos";
+
 /* 
 1) Crie uma função chamada "exibirCor" que aceite:
 -nome da pessoa (obrigatório)
@@ -26,3 +28,5 @@ const mensagem2 = exibirCor("João");
 
 console.log(mensagem1);
 console.log(mensagem2);
+
+separador();
