@@ -17,3 +17,7 @@ const linguagens = [
 ];
 console.log(linguagens[0][0]);
 console.log(linguagens[1][0]);
+(0, modulos_1.separador)();
+const numeros = [10, 50, 10];
+const soma = numeros.reduce((acumulador, valor) => acumulador + valor, 0);
+console.log(soma);
