@@ -1,3 +1,5 @@
+import { separador } from "./modulos";
+
 export {};
 
 /* Tuplas
@@ -10,3 +12,15 @@ console.log(usuario[2] ? "ativo" : "inativo");
 
 usuario[1] = 30; // atualizando um valor da tupla (desde que não seja readonly)
 console.log(usuario[1] + "anos.");
+
+separador();
+
+// Criando uma tupla como tipo
+type Produto = [string, number];
+
+const produtoA: Produto = ["Camiseta", 29.99];
+//const produtoB:Produto = [100, "calça"];//erro, pois esta fora do padrão da tupla
+const produtoC: Produto = ["TV", 1000];
+
+console.log(produtoA);
+console.log(produtoC);
