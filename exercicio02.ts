@@ -16,7 +16,7 @@ interface Produto {
   garantia: string;
 }
 
-function mostrarDetalhes({ nome, preco, garantia }: Produto) {
+function mostrarDetalhes({ nome, preco, garantia }: Produto): void {
   console.log(`Nome: ${nome}`);
   console.log(`Preço: R$ ${preco}`);
   console.log(`Garantia: ${garantia}`);
